@@ -1,3 +1,5 @@
 import streamlit as st
 
-st.write("Hola mundo")
+url = 'https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG'
+
+st.image(url)
